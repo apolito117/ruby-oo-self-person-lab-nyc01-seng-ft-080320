@@ -46,7 +46,7 @@ class Person
     end
 ​
     def take_bath
-        
+
         self.hygiene = @hygiene + 4
         "♪ Rub-a-dub just relaxing in the tub ♫"
     end
@@ -71,7 +71,7 @@ class Person
         #dosomething
             self.happiness = @happiness  - 2
             friend.happiness = friend.happiness - 2
-            return 'blah blah partisan blah lobbyist' 
+            return 'blah blah partisan blah lobbyist'
 ​
         when 'weather'
             #binding.pry
@@ -83,5 +83,5 @@ class Person
         end
     end
 ​
-    
+
 end
